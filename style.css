@@ -1,0 +1,163 @@
+:root {
+  --mainColor: #2a3132;
+  --secondaryColor: #333646;
+  --acsentColor: #fe8d4b;
+}
+
+body {
+  background-color: var(--mainColor);
+  min-height: 900px;
+  font-family: 'ubuntu', sans-serif;
+}
+
+section h1 {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+/* style navbar */
+.nav-link.active {
+  color: var(--acsentColor) !important;
+  font-weight: 700;
+}
+
+.nav-dark {
+  background-color: var(--secondaryColor) !important;
+  z-index: 10;
+  transition: 0.3s;
+}
+/* style navbar */
+
+#hero {
+  color: #fff;
+  min-height: 100vh;
+  padding-top: 80px;
+}
+
+#hero h1 {
+  font-size: 2.8rem;
+}
+
+#hero h2 {
+  font-weight: 300;
+}
+
+#hero p {
+  font-size: 1.1rem;
+  font-weight: 300;
+}
+
+#hero .container {
+  padding-bottom: 20px;
+}
+
+.btn-custom1 {
+  background-color: var(--acsentColor);
+  text-align: center;
+  color: #fff;
+  min-width: 150px;
+  height: 45px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  border-radius: 12px;
+}
+
+.btn-custom1:hover {
+  box-shadow: 0 0 5px rgba(255, 166, 0, 0.8);
+}
+
+.social-icon svg {
+  margin-right: 0.7em;
+  margin-bottom: 28px;
+}
+
+/* tentang saya */
+hr {
+  width: 35%;
+  height: 5px;
+  color: var(--acsentColor);
+  margin: 0 auto;
+  opacity: 100%;
+}
+
+#tentang {
+  min-height: 300px;
+  width: 100%;
+  background-color: var(--secondaryColor);
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  margin-bottom: 80px;
+}
+/* tentang saya akhir */
+
+/* skil */
+#skil {
+  min-height: 300px;
+  width: 100%;
+  color: #fff;
+}
+
+#skil img {
+  width: 12%;
+  margin: 10px;
+}
+/* skil akhir */
+
+/* sertif */
+#sertif {
+  margin-top: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  background-color: var(--secondaryColor);
+}
+
+#sertif p,
+a {
+  color: #fff !important;
+  text-decoration: none;
+}
+
+#sertif img {
+  width: 49%;
+  padding: 5px;
+  margin-top: 30px;
+}
+/* sertif akhir */
+
+/* prprojek */
+#projek .container {
+  padding: 80px 10px;
+}
+
+#projek img {
+  width: 49%;
+  padding: 10px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+
+#ijo:hover {
+  box-shadow: 0 0 10px rgba(60, 255, 0, 0.8);
+}
+
+#abu:hover {
+  box-shadow: 0 0 10px rgba(177, 179, 177, 0.8);
+}
+/* prprojek akhir */
+
+#ki:hover {
+  box-shadow: 0 0 8px rgba(0, 225, 255, 0.829);
+}
+#mikasi:hover {
+  box-shadow: 0 0 8px rgba(0, 225, 255, 0.829);
+}
+
+.social-icon-footer svg {
+  margin-right: 0.7em;
+  margin-bottom: 10px;
+}
+
+#foot {
+  background-color: var(--secondaryColor);
+}

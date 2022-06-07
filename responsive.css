@@ -1,0 +1,59 @@
+@media screen and (max-width: 1200px) {
+  #hero p {
+    font-size: 0.9rem;
+  }
+
+  #hero h1 {
+    font-size: 2.3rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #hero img {
+    width: 90%;
+  }
+
+  .social-icon {
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  #hero .row {
+    padding-bottom: 75px;
+  }
+
+  .btn-custom1 {
+    width: 80%;
+  }
+
+  #tentang p {
+    text-align: justify !important;
+  }
+
+  #sertif img {
+    width: 100%;
+  }
+
+  #projek img {
+    width: 100%;
+    padding: 10px;
+    margin-top: 30px;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  hr {
+    width: 75%;
+  }
+
+  h1 {
+    font-size: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  #projek .col-md-12 {
+    flex-direction: column !important;
+  }
+}
